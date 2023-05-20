@@ -1,0 +1,22 @@
+
+.div1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    
+   
+}
+.div1 div{
+    margin: 20px;
+    transition: all , 2s , linear , 0.2s;
+}
+.div1 div .p1{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+}
+.div1 div:hover{
+    width: 300px;
+}
